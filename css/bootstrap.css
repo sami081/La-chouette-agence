@@ -5200,7 +5200,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-brand>img {
-    display: block
+    display: block;
+    width: 70%;
 }
 
 @media (min-width:768px) {
@@ -7795,7 +7796,9 @@ button.close {
 .center-block {
     display: block;
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    width: 20%;
+    height: 40%;
 }
 
 .pull-right {
