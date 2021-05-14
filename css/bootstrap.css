@@ -2011,8 +2011,8 @@ pre code {
 }
 
 .row {
-    margin-right: -15px;
-    margin-left: -15px
+    display: flex;
+    justify-content: space-between;
 }
 
 .col-lg-1,
