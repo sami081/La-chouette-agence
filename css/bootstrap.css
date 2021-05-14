@@ -313,7 +313,7 @@ th {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
+    font-family: 'Glyphicons Halflings', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
@@ -1400,7 +1400,7 @@ button,
 input,
 select,
 textarea {
-    font-family: inherit;
+    font-family: inherit,Arial, Helvetica, sans-serif;
     font-size: inherit;
     line-height: inherit
 }
@@ -1506,7 +1506,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: inherit;
+    font-family: inherit, Arial, Helvetica, sans-serif;
     font-weight: 500;
     line-height: 1.1;
     color: inherit
@@ -1921,7 +1921,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: Menlo, Monaco, Consolas, "Courier New", monospace
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace, sans-serif;
 }
 
 code {
