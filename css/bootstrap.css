@@ -4830,6 +4830,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     display: block;
     font-size: 2.5rem;
+    color: black;
 }
 
 .nav>li>a:focus,
