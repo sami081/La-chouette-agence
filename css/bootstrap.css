@@ -1978,29 +1978,18 @@ pre code {
     overflow-y: scroll
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 @media (min-width:768px) {
-    .container {
-        width: 750px
-    }
+    
 }
 
 @media (min-width:992px) {
-    .container {
-        width: 970px
-    }
+    
 }
 
 @media (min-width:1200px) {
-    .container {
-        width: 1170px
-    }
+    
 }
 
 .container-fluid {
@@ -4833,18 +4822,14 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav {
     padding-left: 0;
     margin-bottom: 0;
-    list-style: none
+    
 }
 
-.nav>li {
-    position: relative;
-    display: block
-}
+
 
 .nav>li>a {
-    position: relative;
     display: block;
-    padding: 10px 15px
+    font-size: 2.5rem;
 }
 
 .nav>li>a:focus,
@@ -5071,7 +5056,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar {
-        border-radius: 4px
+        border-radius: 4px;
+        display: flex;
+    justify-content: space-around;
     }
 }
 
@@ -5245,15 +5232,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     }
 }
 
-.navbar-nav {
-    margin: 7.5px -15px
-}
 
-.navbar-nav>li>a {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px
-}
+
+
 
 @media (max-width:767px) {
     .navbar-nav .open .dropdown-menu {
@@ -5280,17 +5261,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 @media (min-width:768px) {
-    .navbar-nav {
-        float: left;
-        margin: 0
-    }
-    .navbar-nav>li {
-        float: left
-    }
-    .navbar-nav>li>a {
-        padding-top: 15px;
-        padding-bottom: 15px
-    }
+   
+    
+  
 }
 
 .navbar-form {
@@ -7779,7 +7752,6 @@ button.close {
 .btn-toolbar:after,
 .clearfix:after,
 .container-fluid:after,
-.container:after,
 .dl-horizontal dd:after,
 .form-horizontal .form-group:after,
 .modal-footer:after,

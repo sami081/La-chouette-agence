@@ -1,6 +1,28 @@
 .citation{
     font-weight: bolder;
 }
+.header-accueil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    height: 70%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3976C;
+    align-items: center;
+    padding: 20px 0;
+}
+footer>.social{
+    display: flex;
+    width: 75%;
+}
+footer>.text{
+    margin-bottom: 10px;
+}
 .menu{
     display: flex;
     flex-direction: column;
@@ -19,6 +41,7 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    text-decoration: none;
 }
 
 a:hover {
@@ -56,7 +79,7 @@ a:hover {
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 0px;
 }
 
 .bg-center,
@@ -321,12 +344,12 @@ a:hover {
 .navbar .nav {
     float: right;
     z-index: 1;
+    list-style-type: none;
 }
 
 .nav > li {
-    float: left;
-    margin-top: 4px;
-    font-size: 16px;
+    font-size: 1.5rem;
+    list-style-type: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -364,13 +387,7 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    .site-navigation {
-        position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
-    }
+    
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -889,6 +906,21 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    .header-accueil{
+        flex-direction: column;
+    }
+    .logo{
+        width: 80%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer>.text{
+        font-size: 1.4rem;
+        text-align: center;
+        width: 75%;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -917,17 +949,14 @@ h4 {
         margin-right: 0;
     }
     .site-navigation {
-        position: inherit;
-        transform: none;
-        -webkit-transform: none;
-        -ms-transform: none;
-    }
+        width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;}
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
-        padding-left: 15px;
         width: 100%;
     }
     .nav > li:hover {
