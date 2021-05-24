@@ -10,10 +10,9 @@
     
 }
 .logo{
-    width: 368px;
-    height: 72px;
+    width: 576px;
+    height: 140px;
 }
-
 footer{
     display: flex;
     flex-direction: column;
