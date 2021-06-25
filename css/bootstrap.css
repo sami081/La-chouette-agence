@@ -2312,6 +2312,7 @@ pre code {
     }
     .col-sm-6 {
         color: black;
+        width: 50%;
     }
     .col-sm-5 {
         width: 41.66666667%
@@ -3017,6 +3018,9 @@ table th[class*=col-] {
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 1px solid #ddd
+    }
+    .row {
+        flex-direction: column;
     }
     .table-responsive>.table {
         margin-bottom: 0
